@@ -8,7 +8,7 @@
 - Put the following at the end of the file `~/.bashrc` making sure to replace <message> with... well a message
 
 ``` bash
-if [ -x /usr/games/cowsay -a -x /usr/share/cowsay/cows/olin.cow]; then
+if [ -x /usr/games/cowsay ]; then
     cowthink -f olin <message>
 fi
 
