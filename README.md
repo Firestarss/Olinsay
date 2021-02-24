@@ -10,7 +10,6 @@
 ``` bash
 if [ -x /usr/games/cowsay -a -x /usr/share/cowsay/cows/olin.cow]; then
     cowthink -f olin <message>
-fi
-'''
+fi```
 
 There you go! That should work! (Said every programmer ever...)
